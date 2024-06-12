@@ -1,0 +1,161 @@
+.header {
+  width: 100%;
+}
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.header-calls {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.wrapper {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 120%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  max-width: 1420px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea,
+label,
+input,
+button,
+select {
+  border: none;
+  background: none;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+  background-color: #F2EFEB;
+}
+.footer-row {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.footer-text {
+  color: #FFFFFF;
+}
+
+.header-org {
+  background-color: #F2EFEB;
+  width: 100%;
+  height: 80px;
+}
+.header-org-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-org-main {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding-top: 35px;
+}
+.header-org-main-item {
+  color: #655954;
+}
+.header-org-main-item:hover {
+  color: #bcb6b4;
+}
+
+.banner {
+  width: 100%;
+}
+.banner-row {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 30px;
+}
+.banner-titles {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.banner-titles-title {
+  font-family: Gotham Pro;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 56.43px;
+}
+.banner-titles-subtitle {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+  padding-top: 10px;
+}
+
+.title {
+  width: 100%;
+}
+.title-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.title-text {
+  font-family: Gotham Pro;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 39.04px;
+  max-width: 997px;
+}
+
+.sell {
+  width: 100%;
+  height: 1350px;
+  margin-top: 50px;
+}
+.sell-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;
+  row-gap: 150px;
+  margin: 0 0 0 150px;
+}
+.sell-block {
+  width: 251px;
+  height: 300px;
+}
+.sell-block-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sell-block-title-text {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+}
+.sell-block-buy {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+}/*# sourceMappingURL=main.css.map */

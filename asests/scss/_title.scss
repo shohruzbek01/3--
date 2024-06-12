@@ -1,0 +1,15 @@
+.title{
+    width: 100%;
+    &-row{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    &-text{
+        font-family: Gotham Pro;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 39.04px;
+        max-width: 997px;
+    }
+}

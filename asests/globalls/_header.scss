@@ -1,0 +1,18 @@
+.header{
+    width: 100%;
+    &-row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-icons{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    &-calls{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+}
